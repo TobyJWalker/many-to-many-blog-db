@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS "public"."posts_tags";
 DROP TABLE IF EXISTS "public"."posts";
 -- This script only contains the table creation statements and does not fully represent the table in the database. It's still missing: indices, triggers. Do not use it as a backup.
 
@@ -8,7 +9,6 @@ CREATE TABLE "public"."posts" (
     PRIMARY KEY ("id")
 );
 
-DROP TABLE IF EXISTS "public"."posts_tags";
 -- This script only contains the table creation statements and does not fully represent the table in the database. It's still missing: indices, triggers. Do not use it as a backup.
 
 -- Table Definition
